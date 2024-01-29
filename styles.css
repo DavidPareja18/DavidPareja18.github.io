@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #000000;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #626b70;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1d6fa5;
+}
+
+.hello {
+    text-align: center;
+}
+
+.name span {
+    background: linear-gradient(to right, orange, purple);     
+    background-clip: text;     
+    -webkit-text-fill-color: transparent;
+}
+
+.hello {
+	font-weight: bold;
+	font-size: 60px;
+	color: black;
+}
+
+.name {
+	background: linear-gradient(to right, orange, purple);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen {
+    /* height: 200px; */
+    width: 200px;
+}
