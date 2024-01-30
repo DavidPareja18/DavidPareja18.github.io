@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - DPareja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav>
         <div id="logo">DPareja</div>
         <div>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#experiencia">Experiencia</a>
-            <a href="#estudios">Estudios y competencias</a>
+            <a href="#estudios">Estudios</a>
             <a href="#contacto">Contacto</a>
         </div>
     </nav>
@@ -20,19 +30,117 @@
     <!-- Barra de navegación superior -->
 
     <header>
-        <div id="sobre-mi">
+        <div>
             <h1 class="hello">¡Hola, soy <span class="name">David</span>!👋🏻</h1>
         </div>
-    
+
         <br>
-    
+
         <div class="imagen">
             <img class="rounded-circle img-fluid" id="perfil" src="resources/Foto_CV_2022.jpg">
         </div>
     </header>
 
-    <br>
+    <br><br>
+    <hr>
 
-    
+    <div class="sobre-mi" id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es David Pareja Hernández, actualmente me encuentro finalizando mis estudios de Administración de
+            Sistemas Informáticos en Red (ASIR), en adicción soy Técnico en Sistemas Microinformáticos y Redes (SMR).
+        </p>
+        <p>Soy un apasionado del mundo de las redes y de los sistemas en general, siempre dispuesto a aprender lo que
+            sea necesario con el único objetivo de dar el mejor servicio y dar lo mejor de mi mismo.</p>
+        <p>La pasión, compromiso, seriedad y profesionaldad son mi seña de identidad.</p>
+        <p>Te animo a si quieres saber algo más de mí, contactes conmigo en alguna de las vías habilitadas en este sitio
+            web.</p>
+    </div>
+
+    <hr>
+
+    <div class="experiencia" id="experiencia"
+        style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+        <h2 style="text-align: center;">Experiencia</h2>
+        <br>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="resources/LOGO_VIEWNEXT.png" style="width: 200px;">
+                </div>
+                <div class="col">
+                    <b>Técnico de Sistemas</b>
+                    <br>
+                    <i>Marzo 2022 - Junio 2022</i>
+                </div>
+                <div class="col">
+                    <p>Solución de problemas informáticos de los empleados de la compañía, mantenimiento y plataformado
+                        de equipos, realización de copias de seguridad de la empresa entre otras funciones</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="estudios" id="estudios">
+        <h2 style="text-align: center;">Estudios y Competencias</h2>
+        <br>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="resources/LOGO_CES_AFUERA.png" style="width: 200px;">
+                </div>
+                <div class="col">
+                    <b>Técnico superior en Administración de Sistemas Informáticos en Red <i>(ASIR)</i> con
+                        Ciberseguridad y Hacking Ético</b>
+                    <br>
+                    <i>Septiembre 2022 - Junio 2024</i>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="resources/LOGO_CES_AFUERA.png" style="width: 200px;">
+                </div>
+                <div class="col">
+                    <b>Técnico en Sistemas Microinformáticos y Redes <i>(SMR)</i></b>
+                    <br>
+                    <i>Septiembre 2020 - Junio 2022</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="contacto" id="contacto">
+        <h2 style="text-align: center;">Contacto</h2>
+        <p style="text-align: center;">Si te interesa contactar conmigo, puedes hacerlo a través de cualquiera de los
+            siguientes médios. ¡Estare encantado de hablar contigo!</p>
+        <br>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <a href="tel:+34689075045"><img src="resources/PHONE_ICON.png" style="width: 120px;"></a>
+                </div>
+                <div class="col">
+                    <a href="http://https://www.linkedin.com/in/dparejahernandez/"><img
+                            src="resources/LINKEDIN_ICON.png" style="width: 120px;"></a>
+                </div>
+                <div class="col">
+                    <a href="mailto:david.pareja@icloud.com"><img src="resources/MAIL_ICON.png"
+                            style="width: 120px;"></a>
+                </div>
+                <div class="col">
+                    <a href="https://github.com/davidpareja18"><img src="resources/GITHUB_ICON.png"
+                            style="width: 120px;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
