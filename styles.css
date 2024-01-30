@@ -107,3 +107,14 @@ nav a:hover {
 .contacto {
     margin: 15px;
 }
+
+footer {
+	bottom: 0;
+	background-color: #252525;
+	color: #828282;
+}
+
+#credits {
+	margin-bottom: 0;
+    padding: 20px;
+}
